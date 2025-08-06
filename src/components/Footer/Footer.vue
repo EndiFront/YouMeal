@@ -10,7 +10,7 @@
       <div class="tell-number">
         <h1>Order number</h1>
         <div class="tell">
-          <img src="/public/call.svg" alt="call" />
+          <img src="/public/call.svg" alt="Call" />
           <h2>+0(000)000-00-00</h2>
         </div>
       </div>
