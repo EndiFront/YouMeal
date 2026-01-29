@@ -11,7 +11,7 @@ const { total } = inject("add-to-cart");
     </div>
     <button class="button">Checkout</button>
     <div class="delivery">
-      <img src="/public/Delivery.svg" />
+      <img src="/public/delivery.svg" />
       <h1>Free shipping</h1>
     </div>
   </div>
