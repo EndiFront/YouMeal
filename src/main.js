@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import './style.css'
 import App from './App.vue'
 import Burgers from './components/Menu/Burgers/Burgers.vue'
@@ -44,7 +44,7 @@ const router = createRouter({
     component: Outofstock
   },
 ],
-  history: createWebHistory('/YouMeal')
+  history: createWebHashHistory('/YouMeal')
 })
 
 const app = createApp(App)
