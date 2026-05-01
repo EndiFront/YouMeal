@@ -44,7 +44,7 @@ const router = createRouter({
     component: Outofstock
   },
 ],
-  history: createWebHashHistory('/YouMeal')
+  history: createWebHashHistory('/YouMeal/')
 })
 
 const app = createApp(App)
